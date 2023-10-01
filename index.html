@@ -7,30 +7,53 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
 
-  Perfume
+  <main>
+    <div class="card">
+      <div class="card-image">
+        <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
+      </div>
+      <div class="card-body">
+        <div class="product-category">
+          Perfume
+        </div>
+        
+        <h1>
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="prices">
+          <div class="new-price">
+            $149.99
+          </div>
+          
+          <div class="old-price">
+            $169.99
+          </div>
+        </div>
+      
+        <button class="add-to-cart">
+          <img src="./images/icon-cart.svg" alt="Cart icon"> <span>Add to Cart</span>
+        </button>
+      </div>
 
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
+    </div>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abdul Najeeb Anwari</a>.
+    </div>
+  </footer>
 </body>
 </html>
